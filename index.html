@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>AGRICULTURAL WEBSITE</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website dealing with agriculture focusing on products and farming">
+    <meta name="keywords" content="agriculture,farming,pesticides,insecticides">
+    <meta charset="UTF-8">
+
+    <style>
+        nav {
+            position: sticky;
+            display: flex;
+            justify-content: center;
+            top: 0;
+            z-index: 1000;
+            background-color: #2e7d32;
+            border-radius: 8px;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        html {
+            background-color: #e8f5e9;
+            font-family: "Times New Roman";
+        }
+
+        body {
+            color: #1b5e20;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: #c8e6c9;
+        }
+
+        img {
+            border-radius: 50%;
+            border: 2px solid black;
+            display: block;
+            margin: auto;
+        }
+
+        .content {
+            display: flex;
+            gap: 40px;
+        }
+
+        @media (max-width: 500px) {
+            .content {
+                flex-direction: column;
+            }
+
+            nav {
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">HOME</a>
+    <a href="products.html">PRODUCTS</a>
+    <a href="abouta.html">ABOUT US</a>
+    <a href="contacta.html">CONTACT</a>
+</nav>
+
+<br>
+
+<img src="logo.jpeg" width="45%">
+
+<p>
+Fresh from the farm to your doorstep.<br>
+Buy quality agricultural products directly from trusted farmers. Fresh, affordable, and reliable.
+</p>
+
+<hr>
+
+<div class="content">
+
+<div>
+<p><strong>Why choose us</strong></p>
+<ul>
+    <li>Fresh and high-quality farm products</li>
+    <li>Direct connection between farmers and buyers</li>
+    <li>Fair prices with no unnecessary middlemen</li>
+    <li>Secure and easy online shopping</li>
+</ul>
+</div>
+
+<div>
+<p><strong>Featured categories</strong></p>
+<ul>
+    <li>Crops and grains</li>
+    <li>Fresh vegetables</li>
+    <li>Fruits</li>
+    <li>Seeds and fertilizers</li>
+    <li>Farm tools and equipment</li>
+</ul>
+</div>
+
+</div>
+
+<hr>
+
+</body>
+</html>
